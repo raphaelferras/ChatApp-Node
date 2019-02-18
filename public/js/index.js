@@ -14,5 +14,5 @@ socket.on('disconnect', function () {
 })
 
 socket.on('newMessage', function (message) {
-  console.log('new Email', message);
+  console.log('new Message', message);
 })
